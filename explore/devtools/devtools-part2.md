@@ -1,0 +1,1 @@
+1. The bug was that the two inputs are stored as **string**. Therefore, when performing the ```+``` operator between two strings, they will be concatenated instead of adding them as numbers. 
